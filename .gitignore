@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>අවුරුදු උත්සවය - [Your School Name]</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .logo {
+            height: 100px;
+            width: auto;
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #e74c3c;
+            text-align: center;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 5px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #c0392b;
+        }
+        .event-option {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .event-option input {
+            width: auto;
+            margin-right: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+        }
+        .selection-limit {
+            color: #e74c3c;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="IMG_5161.jpg" alt="[Your School Name] Logo" class="logo">
+        <h1>[Your School Name] අවුරුදු උත්සවය 2024</h1>
+    </header>
+
+    <div class="container">
+        <h2>සිසු ලියාපදිංචි ආකෘතිය</h2>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="fullName">සම්පූර්ණ නම:</label>
+                <input type="text" id="fullName" name="fullName" required placeholder="ඔබේ සම්පූර්ණ නම ඇතුළත් කරන්න">
+            </div>
+
+            <div class="form-group">
+                <label for="school">පාසල:</label>
+                <input type="text" id="school" name="school" required placeholder="ඔබේ පාසලේ නම ඇතුළත් කරන්න" value="[Your School Name]">
+            </div>
+
+            <div class="form-group">
+                <label for="grade">ශ්‍රේණිය/පංතිය:</label>
+                <input type="text" id="grade" name="grade" required placeholder="ඔබේ ශ්‍රේණිය/පංතිය ඇතුළත් කරන්න">
+            </div>
+
+            <div class="form-group">
+                <label for="email">ඉලෙක්ට්‍රොනික ලිපිනය:</label>
+                <input type="email" id="email" name="email" required placeholder="ඔබගේ ඊමේල් ලිපිනය ඇතුළත් කරන්න">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">දුරකථන අංකය:</label>
+                <input type="tel" id="phone" name="phone" placeholder="ඔබගේ දුරකථන අංකය ඇතුළත් කරන්න">
+            </div>
+
+            <h2>සහභාගි වන ඉසව්</h2>
+            <p class="selection-limit">(උපරිම ඉසව් 3 ක් පමණක් තෝරාගත හැකිය)</p>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event1" name="event" value="කොට්ටා පොර" class="event-checkbox">
+                <label for="event1">1. කොට්ටා පොර</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event2" name="event" value="කනාමුට්ටි" class="event-checkbox">
+                <label for="event2">2. කනාමුට්ටි</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event3" name="event" value="පැණි බබරේ" class="event-checkbox">
+                <label for="event3">3. පැණි බබරේ</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event4" name="event" value="කබ ඇදීම" class="event-checkbox">
+                <label for="event4">4. කබ ඇදීම</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event5" name="event" value="තුන්පා" class="event-checkbox">
+                <label for="event5">5. තුන්පා</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event6" name="event" value="ගස්ලබු ගෙඩිය" class="event-checkbox">
+                <label for="event6">6. ගස්ලබු ගෙඩිය</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event7" name="event" value="බැලුම් ඇල්ලීම" class="event-checkbox">
+                <label for="event7">7. බැලුම් ඇල්ලීම</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event8" name="event" value="බැලුම් ඩාන්ස්" class="event-checkbox">
+                <label for="event8">8. බැලුම් ඩාන්ස්</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event9" name="event" value="සංගීත තොප්පි" class="event-checkbox">
+                <label for="event9">9. සංගීත තොප්පි</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event10" name="event" value="දෙහි ගෙඩියයි හැන්දයි" class="event-checkbox">
+                <label for="event10">10. දෙහි ගෙඩියයි හැන්දයි</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event11" name="event" value="අන්දයාට කිරි කැවීම" class="event-checkbox">
+                <label for="event11">11. අන්දයාට කිරි කැවීම</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event12" name="event" value="පිටි ගොඩේ කාසිය සෙවීම" class="event-checkbox">
+                <label for="event12">12. පිටි ගොඩේ කාසිය සෙවීම</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event13" name="event" value="අලියට ඇහැ තැබීම" class="event-checkbox">
+                <label for="event13">13. අලියට ඇහැ තැබීම</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event14" name="event" value="අවුරුදු කුමරා/කුමරිය" class="event-checkbox">
+                <label for="event14">14. අවුරුදු කුමරා/කුමරිය</label>
+            </div>
+            
+            <div class="event-option">
+                <input type="checkbox" id="event15" name="event" value="හොදම ඇඩීම/හිනාව" class="event-checkbox">
+                <label for="event15">15. හොදම ඇඩීම/හිනාව</label>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">විශේෂ අවශ්‍යතා/ප්‍රතිචාර:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="ඔබගේ විශේෂ අවශ්‍යතා හෝ ප්‍රතිචාර ඇතුළත් කරන්න"></textarea>
+            </div>
+
+            <button type="submit">ලියාපදිංචි කිරීම ඉදිරිපත් කරන්න</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>[Your School Name] අවුරුදු උත්සවය 2024</p>
+        <p>සම්බන්ධ කර ගැනීමට: [Contact Email] | දුරකථන: [Contact Number]</p>
+    </footer>
+
+    <script>
+        // Limit to 3 event selections
+        const checkboxes = document.querySelectorAll('.event-checkbox');
+        const max = 3;
+        
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                const checkedCount = document.querySelectorAll('.event-checkbox:checked').length;
+                if (checkedCount > max) {
+                    checkbox.checked = false;
+                    alert(`උපරිම ඉසව් ${max} ක් පමණක් තෝරාගත හැකිය.`);
+                }
+            });
+        });
+
+        // Form submission
+        document.getElementById('registrationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const checkedCount = document.querySelectorAll('.event-checkbox:checked').length;
+            
+            if (checkedCount === 0) {
+                alert('කරුණාකර අවම වශයෙන් එක් ඉසව්වක් හෝ තෝරාගන්න.');
+                return;
+            }
+            
+            if (checkedCount > max) {
+                alert(`උපරිම ඉසව් ${max} ක් පමණක් තෝරාගත හැකිය.`);
+                return;
+            }
+            
+            alert('අවුරුදු උත්සවයට ලියාපදිංචි වීමට ස්තූතියි! ඔබව ඉක්මනින් සම්බන්ධ කරගනු ඇත.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
